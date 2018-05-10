@@ -19,7 +19,7 @@ public class main {
             System.out.println("Escribe un número, por favor: ");
             int num = sn.nextInt();
             for (int i = 2; i <= 16; i++) {
-                System.out.println("El número" + num + " en base " + i + " es " + Integer.toString(num, i));
+                System.out.println("El número " + num + " en base " + i + " es " + Integer.toString(num, i));
             }
         } catch (Exception ex) {
             System.out.println("Detalles del error: " + ex.getMessage());
