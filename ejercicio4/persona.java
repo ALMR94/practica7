@@ -86,7 +86,7 @@ FOL                                  c-5 */
     }
 
     public void setEd(String ed) {
-        this.end = ed;
+        this.ed = ed;
     }
 
     public String getBd() {
